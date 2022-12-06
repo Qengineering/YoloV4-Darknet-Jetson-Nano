@@ -14,17 +14,9 @@ using namespace std;
 
 void draw_boxes(cv::Mat& src, std::vector<bbox_t> result_vec, std::vector<std::string> obj_names, unsigned int wait_msec = 0) {
 	for (auto &i : result_vec) {
-
-        Rect rec(i.x, i.y, i.w, i.h);
-        rectangle(src,rec, Scalar(0, 0, 255), 1, 8, 0);
-        putText(src, format("%s", obj_names[i.obj_id].c_str()), Point(i.x, i.y-5) ,FONT_HERSHEY_SIMPLEX,0.5, Scalar(0, 0, 255), 1, 8, 0);
-
-//		cv::Scalar color(60, 160, 260);
-//		cv::rectangle(mat_img, cv::Rect(i.x, i.y, i.w, i.h), color, 3);
-//		if(obj_names.size() > i.obj_id)
-//			putText(mat_img, obj_names[i.obj_id], cv::Point2f(i.x, i.y - 10), cv::FONT_HERSHEY_COMPLEX_SMALL, 1, color);
-//		if(i.track_id > 0)
-//			putText(mat_img, std::to_string(i.track_id), cv::Point2f(i.x+5, i.y + 15), cv::FONT_HERSHEY_COMPLEX_SMALL, 1, color);
+		Rect rec(i.x, i.y, i.w, i.h);
+		rectangle(src,rec, Scalar(0, 0, 255), 1, 8, 0);
+		putText(src, format("%s", obj_names[i.obj_id].c_str()), Point(i.x, i.y-5) ,FONT_HERSHEY_SIMPLEX,0.5, Scalar(0, 0, 255), 1, 8, 0);
 	}
 }
 
