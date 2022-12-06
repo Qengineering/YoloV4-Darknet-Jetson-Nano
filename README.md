@@ -28,7 +28,7 @@ Special made for a Jetson Nano see [Q-engineering deep learning examples](https:
 
 ## Dependencies.
 To run the application, you have to:
-- Darkent installed. [Install Darkent](https://qengineering.eu/install-darknet-on-jetson-nano.html) <br/>
+- Darknet installed. [Install Darknet](https://qengineering.eu/install-darknet-on-jetson-nano.html) <br/>
 - Code::Blocks installed. (`$ sudo apt-get install codeblocks`)
 
 ------------
