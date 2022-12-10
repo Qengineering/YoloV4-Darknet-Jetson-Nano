@@ -1,6 +1,6 @@
 # YoloV4 Jetson Nano
 ![output image]( https://qengineering.eu/github/YoloFV4darknet.webp )
-## YoloV4 with the Darkent framework. <br/>
+## YoloV4 with the Darknet framework. <br/>
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 Paper: https://arxiv.org/pdf/2004.10934.pdf<br/><br/>
 Special made for a Jetson Nano see [Q-engineering deep learning examples](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html)
